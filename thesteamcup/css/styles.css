@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #171411;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #171411;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 15px 20px;
+    align-items: center;
+    width: 100%;
+    color: #E2C095;
+}
+header > div > nav > ul{
+    display: flex;
+    gap: 10px;
+}
+header > div > nav > ul > li{
+    list-style: none;
+}
